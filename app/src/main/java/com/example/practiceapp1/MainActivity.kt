@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     private val TAG = this::class.java.simpleName
-
+//
     //    後から何か入れたいが、何を入れていいかわからないときは、「lateinit」をつかう
 //   Int?といった形で、nullが入るときは「?」を型の後につけることもできるが、極力使わず以下のように書く
     private lateinit var soundPool: SoundPool
